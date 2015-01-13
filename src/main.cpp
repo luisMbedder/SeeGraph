@@ -14,7 +14,7 @@ int main() {
 /* Prints a message to the console welcoming the user and
  * describing the program. */
 void Welcome() {
-    cout << "Welcome to SeeGraph!" << endl;
+    cout << "Welcome to ViewGraph!" << endl;
     cout << "This program uses a force-directed graph layout algorithm" << endl;
     cout << "to render sleek, snazzy pictures of various graphs." << endl;
     cout << endl;
