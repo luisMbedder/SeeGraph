@@ -19,3 +19,7 @@ QMAKE_CXXFLAGS += -std=c++11 \
 
 
 
+copyResources.input = $$files($$PWD/res/*)
++OTHER_FILES = $$files(res/*)
++QMAKE_EXTRA_TARGETS += copyResources
++POST_TARGETDEPS += copyResources
